@@ -87,6 +87,28 @@ h1 .thin {
   font-size: 20px;
 }
 
+@media (max-width: 540px) {
+  .heading h1 {
+    font-size: 30px;
+  }
+
+  .heading .thin {
+    font-size: 30px;
+  }
+
+  .heading .fa-plus-circle {
+    font-size: 30px;
+  }
+
+  .heading .right-side {
+    margin-top: 20px;
+  }
+
+  .cards {
+    height: 1100px;
+  }
+}
+
 /* <---------------------page1----------------------> */
 
 .headline {
@@ -164,6 +186,24 @@ h1 .thin {
   font-size: 40px;
 }
 
+@media (max-width: 540px) {
+  .headline h2 {
+    font-size: 20px;
+    margin-top: 45px;
+  }
+
+  .line {
+    width: 100%;
+    margin-top: 3.4rem;
+    max-width: 4rem;
+    height: 0.15rem;
+    background-color: rgb(66, 66, 66);
+    position: relative;
+    margin-left: 1.35rem;
+    margin-right: 1.35rem;
+  }
+}
+
 /* <-----------------------Page2----------------------> */
 
 .container-2 {
@@ -179,7 +219,7 @@ h1 .thin {
   justify-content: center;
   align-items: center;
   border: 2px solid rgb(255, 94, 0);
-  width: 30%;
+  width: 400px;
   text-align: center;
   border-radius: 10px;
   background: white;
@@ -211,4 +251,40 @@ h1 .thin {
   outline: none;
   margin-bottom: 20px;
   border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  .popup {
+    margin-top: -30rem;
+    margin-left: 20rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .popup {
+    margin-top: -40rem;
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .popup {
+    margin-top: -55rem;
+    margin-left: 1rem;
+  }
+}
+/* <--------------------------page3-----------------------> */
+
+@media (max-width: 780px) {
+  .p {
+    margin-top: -40rem;
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .p {
+    margin-top: -40rem;
+    margin-left: 1rem;
+  }
 }
